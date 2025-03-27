@@ -1,0 +1,62 @@
+  .todoapp {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f2d0ce;
+    padding: 50px 50px 100px 50px;
+  }
+  
+  .todoinput {
+    margin-bottom: 20px;
+  }
+  
+  .todoinput input {
+    padding: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+    background-color: #f2d0ce;
+    border: 2px solid #ec6a63;
+  }
+  
+  .todoinput button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ec6a63;
+    border: 2px solid #ec6a63;
+    color: white;
+  }
+  
+  .todolist {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todolist li {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .todolist li.completed {
+    background-color: #e7948e;
+  }
+
+  .todolist li span.lineThrough {
+    text-decoration: line-through;
+  }
+  
+  .todolist button {
+    background-color: #c23730;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+
+  
